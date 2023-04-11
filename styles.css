@@ -124,3 +124,36 @@ span{
     bottom: 0;
     right: 100px
 }
+@media(min-width:741px){
+    head{
+        padding: 18px 20px;
+        transition: .3s;
+    }
+}
+@media(min-width:741px){
+    .images:hover .girl{
+        left: 25%;
+    }
+}
+@media(min-width:741px){
+    .images .shape{
+        height: 60%;
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom 1s, left 1s;
+    }
+}
+@media(min-width:741px){
+    .images .girl{
+        height: 55%;
+        width: 100%
+    }
+}
+@media(min-width:741px){
+    .detel{
+        margin-top: 40%;
+        margin-bottom: 50%;
+    }
+}
